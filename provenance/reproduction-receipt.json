@@ -1,0 +1,10 @@
+{
+  "status": "MATCHED_ARCHIVED_OUTCOMES",
+  "roots": 20,
+  "episodes": 820,
+  "mode": "full-reproduction",
+  "independent_replication": false,
+  "contract_violations": 0,
+  "comparisons": "B/L/P, both group outcomes, harm counts, R, contract violations and policy preview counts, every cell",
+  "core": "Exact files listed in provenance/published-core-map.json; wrapper is a publication adaptation"
+}

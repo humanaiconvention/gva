@@ -1,0 +1,324 @@
+{
+  "status": "FROZEN_BEFORE_CONFIRMATION_OUTCOMES",
+  "utc": "2026-09-24T19:07:39.381302+00:00",
+  "source_hash": "dd8c7ab9b8327b1c8f11552a41064d07bb37d5da3d3b92aa8be43f25dec7aa29",
+  "preregistration_sha256": "65b02f083fe4c491ad8cac002028abfd1640937c52d98c4cedaea2dbe7ca5bd6",
+  "namespace": "gva0-confirm-v0.5-displacement",
+  "root_count": 20,
+  "episode_count": 820,
+  "cells": [
+    [
+      "channel0",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "channel0",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "channel0",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "channel0",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "median",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "median",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "median",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "median",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "channel2",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "channel2",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "channel2",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "channel2",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "copies0",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "copies0",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "copies0",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "copies0",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "repeat0",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "repeat0",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "repeat0",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "repeat0",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "rho90",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "rho90",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "rho90",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "rho90",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "mean",
+      0,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "mean",
+      0,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "mean",
+      1,
+      48,
+      "NOMINAL",
+      "faithful"
+    ],
+    [
+      "mean",
+      1,
+      48,
+      "COMMON_BIAS",
+      "faithful"
+    ],
+    [
+      "channel0",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "channel0",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "channel0",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "channel0",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "median",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "median",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "median",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "median",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "channel2",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "channel2",
+      1,
+      4,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "channel2",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "faithful"
+    ],
+    [
+      "channel2",
+      1,
+      48,
+      "PHYSICAL_SHIFT",
+      "nominal"
+    ],
+    [
+      "channel0",
+      1,
+      4,
+      "NOMINAL",
+      "faithful"
+    ]
+  ],
+  "audit_roots": [
+    1000001,
+    1000010,
+    1000020
+  ],
+  "catalogue_hash": "0c7103569a854d8c62e965fc9eedc9584797480a54234019419539ee7f13357d",
+  "contract_hash": "4c5459cdb1c44f630c72b55639428a3ddb1b1c9d2d7337d3c585597bdcd5afbf",
+  "files": {
+    "baseline-lock.json": "d73658f9965df59b1394e4f4963b704ac5968078545dd4fb6344cbedf8f305c6",
+    "calibration.json": "35d37f60297a502d87f4b3da1296c9e588ac9734762f80814954a8be1f41784c",
+    "config.json": "3e912ad82151f61eb5fa4fa2942911bc2655959527943c592d99346a5d7e2b02",
+    "development-audit.json": "9ba453467668a5357495009aff9e3c2ee24624cbef68bb8cc8bd1b8fee29c441",
+    "development-semantics-audit.json": "340598d43272e5d6e56060d977bd6caeb15ced6dc0d35f40af7ac8607063e464",
+    "EXECUTION-ADDENDUM.md": "c51259548643a4d1782a1db5569870a5865a7e6fc9a778a75b7ecbc3785378b3",
+    "preflight-initial-failures.xml": "fca66d5b0e0d0cf208d5d526e193d50b4749d5dae3a1d374c6a3a64f0760953c",
+    "preflight-junit.xml": "c6b024e74f6da02cd9d8ae72a12436ca622a7a1df3a1b368e93152cf16c668bd",
+    "preflight.json": "041ff5142ce4b4f49a0f8aaf9a12aec9b1ea54c5d3c3127e3d656f2ead72a9b5",
+    "PREREGISTRATION.md": "65b02f083fe4c491ad8cac002028abfd1640937c52d98c4cedaea2dbe7ca5bd6",
+    "runtime.json": "51b43ddc64def196e1f2af99dac76eb50b6726a17c3aff6692945a3cf5fd248f",
+    "sample-size.json": "cc9c51f0d8af8c23f020806c7eee0ec9858805009b548239e8e5a17f18ae0ae6",
+    "seed-manifest.json": "34ae8ea7f22fe1ce4565cc34c3bc50b81520e6196d52429327a1f2abe81eb746",
+    "source-before-confirmation-runner.zip": "12a44b717f3cddba931b8ef17a12d7a43a317d958bd16695ada3a65f173a2b33",
+    "source.zip": "3c56e5cb21ee89538e2d4b1f297fe483e6eb28211732bede4accfed6c5be394c"
+  },
+  "externally_registered": false,
+  "blinding": "No outcome summaries or adaptive decisions until all 820 episodes and audits complete; fixed-code actor never receives regime, root, latent state or evaluator outcomes."
+}

@@ -1,0 +1,23 @@
+{
+  "live_scalar_checks": 9840,
+  "independent_candidate_previews": 478080,
+  "source_unchanged": true,
+  "preregistration_unchanged": true,
+  "streams_verified": 2,
+  "setup_seconds": 0.2822510000260081,
+  "actor_startup_seconds": 0.38177860001451336,
+  "audit_roots": [
+    1000001,
+    1000010,
+    1000020
+  ],
+  "no_interim_outcome_summaries": true,
+  "exact_copy_trajectories": 80,
+  "live_tape_namespace_checks": 9840,
+  "nominal_preview_batch_checks": 36,
+  "complete_root_blocks": 20,
+  "complete_episodes": 820,
+  "executed_contract_violations": 0,
+  "independent_statistical_bounds": 4,
+  "all_passed": true
+}

@@ -1,0 +1,21 @@
+{
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 158 Stepping 12, GenuineIntel",
+  "packages": {
+    "colorama": "0.4.6",
+    "hypothesis": "6.168.1",
+    "iniconfig": "2.3.0",
+    "numpy": "2.5.3",
+    "packaging": "26.3",
+    "pluggy": "1.6.0",
+    "pyarrow": "25.0.1",
+    "pygments": "2.21.0",
+    "pytest": "9.1.1",
+    "scipy": "1.18.1",
+    "sortedcontainers": "2.4.0",
+    "z3-solver": "5.1.0.0"
+  },
+  "publication_note": "Local executable path omitted; scientific runtime versions and hardware description retained."
+}

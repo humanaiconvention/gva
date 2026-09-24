@@ -1,0 +1,4 @@
+# Tested on CPython 3.13.14. These are the frozen computational versions.
+numpy==2.5.3
+scipy==1.18.1
+z3-solver==5.1.0.0

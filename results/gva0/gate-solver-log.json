@@ -1,0 +1,290 @@
+[
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "3e03b3397eb0e6eebc2f4e0023b14498834e940c98702afddbfb82b493bdd75f",
+    "result": "sat",
+    "seconds": 0.0005641000170726329
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "b835ff902482c1065deaaec64b3ad13eca92ab6c9945fa1c233c7a5666075e16",
+    "result": "unsat",
+    "seconds": 0.0005577999982051551
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "4cf5197e705bebff2f7327d947e9f651012b583115af190a776d5d5874ced973",
+    "result": "unsat",
+    "seconds": 0.0007127999851945788
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "65c28366c48224f92422ae97f54df9921fa0c8a2271375f518ce28a47dcd10fe",
+    "result": "unsat",
+    "seconds": 0.0005994999955873936
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "8ca76d180c7bb5616f26cde59564bb877c72e26f496b3ce5e4460b9a1b28de83",
+    "result": "unsat",
+    "seconds": 0.0005659000016748905
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "0cd4bd59143f7d9f3c628b218ea9b346b427746223a4fb1d76af883055d7d994",
+    "result": "unsat",
+    "seconds": 0.0006961000035516918
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "a3415b8b10af3e14832248dd1589dd6349b5b9cfff0026a4c35f9d4a38e2c27a",
+    "result": "unsat",
+    "seconds": 0.0005561999860219657
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "5c88ed55d78f9fdee4d19df1b6cd70a123c1d913f8a6ed3b18b4872de4a10913",
+    "result": "sat",
+    "seconds": 0.0005488000169862062
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "8f0f868a3c2c3ef11eab433f58b64937623c3ff948c590d347edaced01c78345",
+    "result": "unsat",
+    "seconds": 0.0005639000155497342
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "f15e7ddadcd7c3eebbf18358dc8a03c4cb65cff0b61c766618a220a4fb3fc881",
+    "result": "unsat",
+    "seconds": 0.0005896000075154006
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "80e2c1102b759a73b0d3b5b482a81fb4d403c445eae6216e083bf05dcb4cc991",
+    "result": "unsat",
+    "seconds": 0.0005519000114873052
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "69b1d493d3e70f90f1f5c3c09933de6b4994dec201715703c479c27a478aff5d",
+    "result": "sat",
+    "seconds": 0.000600500003201887
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "f5e6d06801f75afdd32aae5a5322999f86d80d78f3fd1cf122aa9e23b25a2e08",
+    "result": "unsat",
+    "seconds": 0.0006056000129319727
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "56c0ab8e83cbb794f4d5d0a6cf903914dfaa9df5214774ce424a84cd2d1f6d3f",
+    "result": "unsat",
+    "seconds": 0.0006623999797739089
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "76267680a8a0c3361220d8e78bd9afb9a91adff2d9c34298f80b031646566ebf",
+    "result": "unsat",
+    "seconds": 0.0005562999867834151
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "79d2f77218ee1220547a35cd9d8a2c255fde9c82cfccabcd62f80e27914fcedc",
+    "result": "unsat",
+    "seconds": 0.0005680999893229455
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "cc4ee3937e7dc468a178a1cd41417dc833f6eac53ae9210ed96df29188ce73dc",
+    "result": "sat",
+    "seconds": 0.0008671999967191368
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "f32461b79a788c5a21bed20a5f73b4d8809b7a78df0a9cebe209b576807cd265",
+    "result": "unsat",
+    "seconds": 0.0006597000174224377
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "b73d249ffcbabccaf1c0c5cad07dcaa1c7e5582e6dd1eabde70b5140c4ec0e59",
+    "result": "unsat",
+    "seconds": 0.0006923000037204474
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "df27899c0830291cec9bb9a9986b1528858835afe304c9a694575026b0dcbf0d",
+    "result": "unsat",
+    "seconds": 0.0005743000074289739
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "99583529960d1420cb1ef4b4b89e17c63892814d60bfa220beecda88317707e7",
+    "result": "sat",
+    "seconds": 0.0005775000026915222
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "6d6b4d397678ae02ef62e5b863ef5af40215c420c8116e92997ca2eacbead84b",
+    "result": "unsat",
+    "seconds": 0.0007687000033911318
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "96257926c6235939bc1388cad695c7248bc30df42b2b5704865540592123989f",
+    "result": "unsat",
+    "seconds": 0.0006201000069268048
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "64816ae922b30f5e1d3ffea762aed4a1dcb889862ecea8513b6e3c94b66135fc",
+    "result": "unsat",
+    "seconds": 0.0005607999919448048
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "bb77eea4f4edb850faf2dac5e29facc7629abe1479fb0e2f982edf64ae8056ab",
+    "result": "unsat",
+    "seconds": 0.0005608000210486352
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "d2fe297361dd3e3d4199bae05dfbd7b6e616f03202bcfd076f19235fcccdeff1",
+    "result": "unsat",
+    "seconds": 0.0018936000124085695
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "ad324ba39a0c2f7c501e43ee8b33a755940860745e3b36121ddf1e4ce9b3bfe9",
+    "result": "unsat",
+    "seconds": 0.0005929000035393983
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "86464a7d5730e5a59bf3d59ad9113b45b6331addde79c0648108f56437046b33",
+    "result": "unsat",
+    "seconds": 0.0005293999856803566
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "0bfa9c8c5279646989684c78b84b7ee7d04dcaa8630dfc2cdf82e121f064820c",
+    "result": "unsat",
+    "seconds": 0.004025400005048141
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "28a8f81b7f379e777fc4ac3753e41ee2cfabc68ae1bc443675f9262c4694bbc3",
+    "result": "unsat",
+    "seconds": 0.0005748000112362206
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "4f692f8cf1675b4dffb62eef8de08226e7cbb87afc169f30d4bbe6db3a3c3dab",
+    "result": "unsat",
+    "seconds": 0.000599899998633191
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "613ad2bcfd13d2cd9c5c9f02585102b94dfca9e1f15171a411f575ba55474416",
+    "result": "unsat",
+    "seconds": 0.0013420000032056123
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "ed3d6b58b4ccc9c383ea2f8fc9838ed457bce10d313478cc7c637ba44e70abc5",
+    "result": "sat",
+    "seconds": 0.0005623000033665448
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "8dc61dbb4448d29782b39625d7ff2cd950b94d6a15026fbf1bb7af9ec28a051e",
+    "result": "unsat",
+    "seconds": 0.0005787000118289143
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "ddec3e90190a93e7afd540bf56bdac35b665f847212243ada29ffaac99e97570",
+    "result": "unsat",
+    "seconds": 0.0006924000044818968
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "63a8bbbb8132fea3ecc3769c1e644b96c8b6f7d848cf8f42881c7d326393f380",
+    "result": "unsat",
+    "seconds": 0.0005638000147882849
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "5e377a10e50f4ebdc2966dbf3d8b068af5be69e203f0649cc64b95a3f9314a66",
+    "result": "sat",
+    "seconds": 0.0006053000106476247
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "57055bd8ac6b76053bb1b605efd5f7610b73b1662d77a719365472de64f067c4",
+    "result": "unsat",
+    "seconds": 0.000831899989861995
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "2a0163ac11f7dcec53197eb9b590646e3b4cc82a895e66341ce5014975aef63d",
+    "result": "unsat",
+    "seconds": 0.0007456000021193177
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "2875aa5fc21cb5d4c0e644fd9b379b8f605e2ff1e269bbb1b8104eaad74bc4fa",
+    "result": "unsat",
+    "seconds": 0.0005588000058196485
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "e0a8f27592e9b1ade25c95aba7ccdb41d3aa7a539caed774a98d1ad2f9ae122e",
+    "result": "unsat",
+    "seconds": 0.0005851000023540109
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "04106cbb1badeca4168a5136cde0817aa02173106047c4585fe6b75450527662",
+    "result": "unsat",
+    "seconds": 0.0007786999922245741
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "89a0cb454db78a39250251697b792a9d876b14b8ca8bad3a213418ec1b475c45",
+    "result": "unsat",
+    "seconds": 0.000678999989759177
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "bd07a07dbe22d3e9890702e65df504e6008d8aa42c86d48654ee99956a2204f0",
+    "result": "unsat",
+    "seconds": 0.0005363000091165304
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "c33369d27595b3c5acceed51b4783bfbcf0eec9e68db9225173b2ea7a5982a24",
+    "result": "unsat",
+    "seconds": 0.0006745999853592366
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "1fc9980d814dc2208a9212db0189579a2869c80b5935fb6a8b8e213f63fbed98",
+    "result": "unsat",
+    "seconds": 0.0005875999922864139
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "8f8f1e7205cd099a0e753cbc840995f8c3ae59342f78aae35e14dacd6a487579",
+    "result": "unsat",
+    "seconds": 0.0005867999861948192
+  },
+  {
+    "solver_version": "5.1.0",
+    "formula_hash": "1347ee6718c5f0631127c00668889d44aba6f3647ecb04e73d6ed372a8636a21",
+    "result": "unsat",
+    "seconds": 0.0005392000020947307
+  }
+]

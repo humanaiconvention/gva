@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "contexts": 1440,
+  "independent_on_off_global_enumerations": 216,
+  "independent_candidate_replica_scores": 113168,
+  "input_surface_digest": "9eb4c80c0ac64997c7452ebbcc9c059be281be1ca22233429de6a53c0861268a",
+  "audit_source_hash": "1a7ed21233c4978b834f3b1166f377ce637c55195539c3946faf6f5cdec9453b",
+  "original_run_source": "b10a1d59aa47aba04c02b4650210939a9c815174d750cc35a9a64ad6e067a3f3",
+  "all_witnesses_match": true,
+  "scope": "post-run implementation audit, not an additional hypothesis or independent root sample"
+}

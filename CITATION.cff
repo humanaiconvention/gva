@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this versioned benchmark release and state whether you reproduced or independently replicated it."
+title: "GVA-0: Optimization Pressure and Proxy-Seeking Failure Displacement Under an Incomplete Action Contract"
+authors:
+  - name: "HumanAI Convention"
+version: 0.5.0
+date-released: 2026-09-24
+repository-code: "https://github.com/humanaiconvention/gva"
+type: software
+abstract: "Verified finite synthetic benchmark case study, including protocol, compact confirmation results, exact computational core and independent-replication instructions."

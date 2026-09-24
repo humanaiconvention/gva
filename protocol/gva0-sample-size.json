@@ -1,0 +1,76 @@
+{
+  "selected_roots": 20,
+  "unique_episodes": 820,
+  "resource_cap_roots": 500,
+  "resource_cap_episodes": 20500,
+  "covariance_from_40_roots": [
+    [
+      0.001870771011396011,
+      0.0006922186609686609,
+      0.0009326032763532764,
+      -0.00012686965811965832
+    ],
+    [
+      0.0006922186609686609,
+      0.0033431267806267777,
+      0.00044626958689458665,
+      0.001615918803418805
+    ],
+    [
+      0.0009326032763532764,
+      0.00044626958689458665,
+      0.0005149906517094014,
+      -3.0048076923077067e-05
+    ],
+    [
+      -0.00012686965811965832,
+      0.001615918803418805,
+      -3.0048076923077067e-05,
+      0.0015981125356125355
+    ]
+  ],
+  "variance_inflation": 1.778458751239948,
+  "labels": [
+    "nominal_delta_B",
+    "nominal_delta_legal_repeat",
+    "shift_delta_B",
+    "shift_delta_legal_repeat"
+  ],
+  "minimum_effects": [
+    0.05,
+    0.2,
+    0.05,
+    0.2
+  ],
+  "prospective_alternative": [
+    0.1,
+    0.3,
+    0.1,
+    0.3
+  ],
+  "power_target": 0.9,
+  "grid": [
+    {
+      "N": 20,
+      "estimated_covariance": {
+        "N": 20,
+        "power": 0.9948666666666667,
+        "MC_lower_95": 0.9941419515691317,
+        "MC_se": 0.0004125927056320075
+      },
+      "inflated_covariance": {
+        "N": 20,
+        "power": 0.9133,
+        "MC_lower_95": 0.9105903047646139,
+        "MC_se": 0.001624634420415867
+      }
+    }
+  ],
+  "simulations_per_scenario_N": 30000,
+  "pilot_means_used_for_power": false,
+  "method": "Gaussian paired-root planning with simulated sample covariance; four Bonferroni one-sided paired t lower bounds",
+  "scope": "N powers the four primary displacement criteria, not every secondary control; conditional on prospective effects and covariance model",
+  "status": "CALCULATED_DRAFT",
+  "development_manifest_hash": "fdca98a88290f54d39ecd451b047fbee7248f872569e7281ebce51676f82ccb5",
+  "planning_settings_hash": "f4b8731d1f2196c195625de9aa628983791aa109cbf3c1a3d7590c02f271db51"
+}

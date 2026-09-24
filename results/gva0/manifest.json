@@ -1,0 +1,40 @@
+{
+  "status": "CONFIRMED",
+  "started_utc": "2026-09-24T19:07:52.522485+00:00",
+  "hashes": {
+    "freeze": "c48fd4aa8133d0e4ead40d04e917437383ce73bc794c52351e3eaaa4fce437c4",
+    "source": "dd8c7ab9b8327b1c8f11552a41064d07bb37d5da3d3b92aa8be43f25dec7aa29",
+    "preregistration": "65b02f083fe4c491ad8cac002028abfd1640937c52d98c4cedaea2dbe7ca5bd6",
+    "seed_manifest": "34ae8ea7f22fe1ce4565cc34c3bc50b81520e6196d52429327a1f2abe81eb746",
+    "catalogue": "0c7103569a854d8c62e965fc9eedc9584797480a54234019419539ee7f13357d",
+    "contract": "4c5459cdb1c44f630c72b55639428a3ddb1b1c9d2d7337d3c585597bdcd5afbf"
+  },
+  "roots": [
+    1000001,
+    1000002,
+    1000003,
+    1000004,
+    1000005,
+    1000006,
+    1000007,
+    1000008,
+    1000009,
+    1000010,
+    1000011,
+    1000012,
+    1000013,
+    1000014,
+    1000015,
+    1000016,
+    1000017,
+    1000018,
+    1000019,
+    1000020
+  ],
+  "namespace": "gva0-confirm-v0.5-displacement",
+  "planned_episodes": 820,
+  "complete_roots": 20,
+  "outcomes_released": true,
+  "completed_utc": "2026-09-24T19:10:00.358255+00:00",
+  "episodes": 820
+}

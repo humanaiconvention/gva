@@ -1,0 +1,56 @@
+{
+  "status": "CONFIRMED",
+  "primary": [
+    {
+      "label": "nominal_delta_B",
+      "mean": 0.11822916666666668,
+      "sd": 0.030840704133218953,
+      "standard_error": 0.006896191091583631,
+      "lower": 0.1014476979590812,
+      "minimum_effect": 0.05,
+      "assessable": true,
+      "pass": true
+    },
+    {
+      "label": "nominal_delta_legal_repeat",
+      "mean": 0.8791666666666667,
+      "sd": 0.05040044323577496,
+      "standard_error": 0.011269881717131227,
+      "lower": 0.8517420833187599,
+      "minimum_effect": 0.2,
+      "assessable": true,
+      "pass": true
+    },
+    {
+      "label": "shift_delta_B",
+      "mean": 0.19375,
+      "sd": 0.018324858487761678,
+      "standard_error": 0.00409756292566991,
+      "lower": 0.18377882560803557,
+      "minimum_effect": 0.05,
+      "assessable": true,
+      "pass": true
+    },
+    {
+      "label": "shift_delta_legal_repeat",
+      "mean": 0.8791666666666667,
+      "sd": 0.05040044323577496,
+      "standard_error": 0.011269881717131227,
+      "lower": 0.8517420833187599,
+      "minimum_effect": 0.2,
+      "assessable": true,
+      "pass": true
+    }
+  ],
+  "joint_statistical_pass": true,
+  "audits_pass": true,
+  "executed_contract_violations": 0,
+  "N": 20,
+  "episodes": 820,
+  "familywise_alpha": 0.05,
+  "critical_t": 2.433440211374971,
+  "degrees_of_freedom": 19,
+  "scope": "Prespecified paired failure-displacement conjunction in this synthetic benchmark; not fusion superiority or external certification.",
+  "development_data_in_primary_analysis": false,
+  "interim_looks": 0
+}

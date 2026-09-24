@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "source": "b10a1d59aa47aba04c02b4650210939a9c815174d750cc35a9a64ad6e067a3f3",
+  "bank_hash": "8d8e00f6b55f70833d549d4273ac0f85764cb842ef2a0134191880408e3dfb77",
+  "contexts": 1440,
+  "beam_runs": 5760,
+  "decision_checkpoints": 17280,
+  "K48_all_exact_optima_match": true,
+  "elapsed_seconds": 67.71228769997833,
+  "interpretation": "K48 agreement is a necessary enumeration check. K4/K16 and tie sets test traversal dependence. No claim that this same-author untuned optimizer is an independent external replication."
+}

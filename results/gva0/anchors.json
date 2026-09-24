@@ -1,0 +1,12 @@
+{
+  "events.jsonl": {
+    "events": 9840,
+    "head": "b91c642d697ba77d6c073fa7bb4236dafd7ef9653c46512abe43b8927d788794",
+    "substantive_head": "2553b5b143bf7b449c8afcbba10a061b3ad1e9494b31974fd383aa8d190023a1"
+  },
+  "evaluator/decisions.jsonl": {
+    "events": 9840,
+    "head": "1ee50534b8e038b7b00be88364c0d736a01d7ac467057953689fc68a2f0779b2",
+    "substantive_head": "a2b8c1ad913f57e340f28995e8ea6b046dfd6db4406d6e6498b58e0b764a4315"
+  }
+}

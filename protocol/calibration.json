@@ -1,0 +1,93 @@
+{
+  "channel0": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "median": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "channel2": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "copies0": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "repeat0": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "rho90": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  },
+  "mean": {
+    "states": 2000,
+    "rank": 1801,
+    "half_widths": [
+      20,
+      20
+    ],
+    "coverage": [
+      1.0,
+      1.0
+    ],
+    "rounding": "conservative integer ceiling"
+  }
+}
