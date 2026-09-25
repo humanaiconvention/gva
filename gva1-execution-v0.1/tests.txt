@@ -1,0 +1,24 @@
+test_all_eighteen_bounds_and_separate_repair_decisions_on_synthetic_records (test_execution.GuardAndStatisticsTests.test_all_eighteen_bounds_and_separate_repair_decisions_on_synthetic_records) ... ok
+test_checks_remain_active_with_python_optimization (test_execution.GuardAndStatisticsTests.test_checks_remain_active_with_python_optimization) ... ok
+test_confirmation_freeze_failure_precedes_any_outcome (test_execution.GuardAndStatisticsTests.test_confirmation_freeze_failure_precedes_any_outcome) ... ok
+test_confirmation_never_initializes_without_activation (test_execution.GuardAndStatisticsTests.test_confirmation_never_initializes_without_activation) ... ok
+test_freeze_detects_code_runtime_and_protocol_changes (test_execution.GuardAndStatisticsTests.test_freeze_detects_code_runtime_and_protocol_changes) ... ok
+test_no_partial_or_duplicate_root_analysis (test_execution.GuardAndStatisticsTests.test_no_partial_or_duplicate_root_analysis) ... ok
+test_reserved_roots_cannot_be_relabelled_development (test_execution.GuardAndStatisticsTests.test_reserved_roots_cannot_be_relabelled_development) ... ok
+test_statistical_boundaries_and_zero_variance (test_execution.GuardAndStatisticsTests.test_statistical_boundaries_and_zero_variance) ... ok
+test_corrupt_complete_root_invalidates_and_blocks_resume (test_execution.RecoveryTests.test_corrupt_complete_root_invalidates_and_blocks_resume) ... ok
+test_crash_after_atomic_root_is_adopted_without_rerun (test_execution.RecoveryTests.test_crash_after_atomic_root_is_adopted_without_rerun) ... ok
+test_mid_root_retry_preserves_completed_roots_and_incomplete_evidence (test_execution.RecoveryTests.test_mid_root_retry_preserves_completed_roots_and_incomplete_evidence) ... ok
+test_semantic_failure_cannot_be_retried_as_infrastructure (test_execution.RecoveryTests.test_semantic_failure_cannot_be_retried_as_infrastructure) ... ok
+test_all_reachable_histories_against_independent_predicate (test_execution.SemanticsTests.test_all_reachable_histories_against_independent_predicate) ... ok
+test_incomplete_candidate_batch_cannot_dispatch (test_execution.SemanticsTests.test_incomplete_candidate_batch_cannot_dispatch) ... ok
+test_policy_batch_cannot_be_duplicated_to_hide_cost (test_execution.SemanticsTests.test_policy_batch_cannot_be_duplicated_to_hide_cost) ... ok
+test_report_repair_before_clipping_and_missingness (test_execution.SemanticsTests.test_report_repair_before_clipping_and_missingness) ... ok
+test_shift_preview_is_nominal_but_live_physics_changes (test_execution.SemanticsTests.test_shift_preview_is_nominal_but_live_physics_changes) ... ok
+test_stateful_accept_and_reject_both_identify_history_and_rule (test_execution.SemanticsTests.test_stateful_accept_and_reject_both_identify_history_and_rule) ... ok
+test_unknown_solver_fails_before_dispatch (test_execution.SemanticsTests.test_unknown_solver_fails_before_dispatch) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 30.513s
+
+OK
