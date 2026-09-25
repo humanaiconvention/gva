@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "root_blocks_verified": 40,
+  "live_transitions_verified": 16320,
+  "root_hash_chains_verified": 40,
+  "source_hash": "ae7f893c1530399614fac40dc650db08fa2eec4b95186d8e543a6800ed34ff93",
+  "external_review": false,
+  "limitation": "Author-provided scalar reconstruction and integrity checks, not external replication."
+}
