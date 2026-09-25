@@ -31,3 +31,9 @@ The separate `gva1-preregistration/` directory records a prospective repair prot
 ## Subsequent GVA-1 execution preparation
 
 The later `gva1/` package and `tests/gva1/` fixture/suite complete execution preparation without modifying the preceding scientific commitment. The development-only preflight matched 640 pilot episodes and passed 19 tests. `gva1-execution-v0.1/` contains the prospective execution seal, readiness receipt, test log and compact development cost/collection receipts. All raw validation traces remain local and reproducible; no fresh confirmation result is included. Independent review remains outstanding. The prior paragraph records the status at v0.5.1, before this execution layer existed.
+
+## Subsequent GVA-1 confirmation
+
+The `gva1-confirmation-v0.1` release records the later collection of all 145 reserved roots / 2,320 episodes under the unchanged prospective source/runtime seal. `results/gva1-confirmation-v0.1/` contains every cell, all eighteen bounds, root commitments, run metadata, costs and completion/audit receipts. The separately downloadable release archive contains the complete original synthetic event chains, with its SHA-256 and individual file hashes committed in `trace-archive.json`. No private conversations or development scratch files are included.
+
+The independent-review package and decision to proceed without waiting were publicly committed before collection at `4f56b10`; this changes roadmap sequencing, not scientific criteria. The separate publication verifier recomputes arithmetic without importing the frozen analyzer. It remains author-provided tooling, and outside review is still outstanding. Earlier not-started statements in immutable protocol/receipt files document their pre-collection state; the completion receipt records subsequent execution. GVA-0's closed inputs and results remain unchanged.

@@ -64,4 +64,6 @@ Verify source and runtime against the pre-collection seal, all complete-root com
 
 ## Returning findings
 
+Collection is now complete. Start with the [GVA-1 result report](../paper/GVA1-REPORT.md), [root metrics and all bounds](../results/gva1-confirmation-v0.1/result.json), and [trace archive manifest](../results/gva1-confirmation-v0.1/trace-archive.json). Run `python scripts/verify_gva1_confirmation.py` for the separate arithmetic checks, optionally adding `--trace-archive /absolute/path/to/gva1-confirmation-v0.1-traces.zip` to verify the archive. This paragraph was added after completion; the rest of this review brief was published before outcomes.
+
 Use the report template and open a repository issue or pull request. Report negative findings and unresolved questions with equal prominence. A later semantic discrepancy can invalidate affected claims; preserve the original version and publish a correction rather than silently overwriting results. No reviewer is currently recruited or endorsed.

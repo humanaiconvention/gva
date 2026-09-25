@@ -1,0 +1,29 @@
+{
+  "status": "PASSED",
+  "positive": {
+    "status": "VERIFIED",
+    "roots": 145,
+    "episodes": 2320,
+    "bounds_recomputed": 18,
+    "supported_repairs": {
+      "report_repair": true,
+      "contract_repair": true,
+      "both": true
+    },
+    "trace_archive_verified": true,
+    "independent_external_review": false
+  },
+  "negative_cases": [
+    {
+      "case": "changed_bound",
+      "rejected": true,
+      "reason": "Lower bound mismatch"
+    },
+    {
+      "case": "duplicate_observation",
+      "rejected": true,
+      "reason": "Incomplete or duplicate observations"
+    }
+  ],
+  "scope": "Publication verifier checks only; no simulator execution or new outcomes. Corrupted copies retained outside the public repository."
+}
