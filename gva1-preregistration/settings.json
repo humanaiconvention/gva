@@ -1,0 +1,83 @@
+{
+  "protocol": "GVA-1 repair-v0.1",
+  "phase": "new-development-pilot-before-confirmation",
+  "pilot_roots": [
+    3000001,
+    3000002,
+    3000003,
+    3000004,
+    3000005,
+    3000006,
+    3000007,
+    3000008,
+    3000009,
+    3000010,
+    3000011,
+    3000012,
+    3000013,
+    3000014,
+    3000015,
+    3000016,
+    3000017,
+    3000018,
+    3000019,
+    3000020,
+    3000021,
+    3000022,
+    3000023,
+    3000024,
+    3000025,
+    3000026,
+    3000027,
+    3000028,
+    3000029,
+    3000030,
+    3000031,
+    3000032,
+    3000033,
+    3000034,
+    3000035,
+    3000036,
+    3000037,
+    3000038,
+    3000039,
+    3000040
+  ],
+  "pilot_namespace": "gva1-development-repair-v0.1",
+  "confirmation_namespace": "gva1-confirm-repair-v0.1",
+  "confirmation_root_start": 4000001,
+  "repairs": [
+    "report_repair",
+    "contract_repair",
+    "both"
+  ],
+  "regimes": [
+    "NOMINAL",
+    "PHYSICAL_SHIFT"
+  ],
+  "K": [
+    4,
+    48
+  ],
+  "previews": 8,
+  "cells_per_root": 16,
+  "family_size": 18,
+  "alpha": 0.05,
+  "criteria": {
+    "harm_slope_attenuation_lower": 0.05,
+    "production_difference_lower": -0.05,
+    "high_search_any_harm_probability_upper": 0.1
+  },
+  "prospective_alternative": {
+    "harm_slope_attenuation": 0.08,
+    "production_difference": 0.0,
+    "high_search_any_harm_probability": 0.01
+  },
+  "power_target": 0.9,
+  "minimum_roots": 40,
+  "maximum_roots": 500,
+  "planning": "Noncentral-t marginal powers for 12 new paired continuous contrasts; exact-binomial powers for six incidence bounds; union-bound joint-power guarantee under planning assumptions; pilot covariance is not substituted for effect alternatives.",
+  "variance_sensitivity": "39 / chi2.ppf(.05/12,39), applied to each of the 12 pilot variances",
+  "confirmation_enabled": false,
+  "scope": "Causal repair in two specified dynamics. No claim of generalization to new optimizers or untested physical parameters; reserve those for a separate stage."
+}

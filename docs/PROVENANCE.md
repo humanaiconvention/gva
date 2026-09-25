@@ -19,3 +19,11 @@ The paper's public edition relocates local links and describes this distribution
 The portable publication wrapper is tested against all 820 archived outcome records. It uses the exact frozen physics, measurement, gate, score, seed and primary actor implementations. It is an author-provided reproduction aid; neither that wrapper nor the independently written scalar checks constitute an external replication.
 
 Local hashes provide tamper evidence relative to their commitment under trusted storage. The later GitHub release is a public archive, not proof of an independently timestamped pre-outcome registration.
+
+## Public revision v0.5.1
+
+After v0.5.0 was published, the maintainer supplied an AI-generated review. The revised manuscript narrows the interpretation to an engineered mechanism demonstration, corrects the supported-action discussion, moves archival fusion methods to the supplement, and adds explicit AI-assistance disclosure. The frozen scientific protocol, original numerical result files and all 23 exact core files remain unchanged. The first edition remains available at tag `v0.5.0`; its public manifest is also retained as `provenance/RELEASE-v0.5.0.json`.
+
+Files under `exploratory/` and `results/review-v0.5.1/` are later, explicitly post hoc analyses of archived roots. They do not add independent observations to the original sample or change its decision. The full rerun of 820 original cells is an author reproduction, and the 1,120-cell review sweep is an exploratory extension; neither is an external replication.
+
+The separate `gva1-preregistration/` directory records a prospective repair protocol and new sample-size/seed commitments before GVA-1 confirmation outcomes. Its forty-root development pilot is distinct from both GVA-0 samples. The statistical protocol is publicly committed under `gva1-prereg-v0.1`; the final confirmation execution implementation still requires validation and a source/runtime freeze. No GVA-1 confirmation result is claimed.

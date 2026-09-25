@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite this versioned benchmark release and state whether you reproduced or independently replicated it."
-title: "GVA-0: Optimization Pressure and Proxy-Seeking Failure Displacement Under an Incomplete Action Contract"
+title: "GVA-0: Search Pressure Increases Harm on an Admissible Action Path"
 authors:
   - name: "HumanAI Convention"
-version: 0.5.0
+version: 0.5.1
 date-released: 2026-09-24
 repository-code: "https://github.com/humanaiconvention/gva"
 type: software

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-09-25T00:17:50.275226+00:00",
+  "status": "PROSPECTIVE_STATISTICAL_PROTOCOL_EXECUTION_FREEZE_PENDING",
+  "protocol": "GVA-1 repair-v0.1",
+  "public_tag": "gva1-prereg-v0.1",
+  "selected_roots": 145,
+  "confirmation_outcomes_generated": 0,
+  "files": {
+    "design-audit.json": "794ea54ee19f9933c33816a52ee5953c362b651482e1636df4b3d69908432881",
+    "pilot-contrast-matrix.json": "39d980317ab5ddbe7b0f67140428a0878e771944679a1a9f1dd8d113b39de6e6",
+    "pilot-source-commitment.json": "74a700cd0fe7a12542bf5c0c4f8758cb86ac20f7abd6ac59e38ca2d6a14cedc0",
+    "pilot-summary.json": "5ebeed3326d204cd7fcc34fdba29fdac24668a174c54bdf83a56c49740b5cc32",
+    "plan_sample_size.py": "0f825d6860d0fe83f5f34f93af0164fede08715780174c7ed7713797b8f2cb4a",
+    "PREREGISTRATION.md": "44d65a132eaf44be7a29d28811944e2701b22c5acbf8d8764fa68fa47d0aca94",
+    "sample-size.json": "b325756623a9af2cd9049f9aca9d3658f0157e7e0ed32bf84008237e09c746ec",
+    "SEED-COMMITMENT.json": "46b97074672a2c073f1f93dd19fd1ee137652f5b1cac1e6f2d105e7e950c403e",
+    "settings.json": "f6a4ffb1990ff6f3b618706db0c800348788d1d8ad6eaf75c80978c9a7efb45a"
+  }
+}

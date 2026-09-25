@@ -2,6 +2,16 @@
 
 All tables concern the twenty fresh confirmation roots unless explicitly marked developmental. The 41 cells and separate statistical families were frozen before fresh outcomes. B/L/P are normalized synthetic endpoints; zero descriptive interval width is not evidence of population equivalence.
 
+V denotes enforcement: V=1 applies the action contract in previews and final authorization; V=0 disables enforcement. R is the repeated legal-production rate and is not a harm-specific measure.
+
+## S0. Archival measurement controls
+
+At K48, seven measurement conditions—channel0, channel2, distinct-channel median, exact channel0 copies, independent repeated channel0 readings, high-correlation distinct readings and arithmetic mean—are crossed with enforcement on/off and nominal/common-bias regimes. Exact copies form the strict deterministic negative control for channel multiplicity. The other estimators and aggregation interventions test alternative explanations; they are not assumed to be null interventions.
+
+Channel1 shares the report-writing path with channel0; channel2 does not. COMMON_BIAS adds the q-dependent Y reporting bias to channels1/2 from t=6. Independent repeated readings reproduce channel0's bias with independent noise. The high-correlation condition uses a .9 shared-noise mixture at fixed channel count and unchanged marginal noise laws. Arithmetic mean preserves exact fractional scores. Calibration uses the same frozen 2,000 benign states for every estimator; interval widths do not enter action ranking.
+
+Thirty-six paired B/L/P control contrasts form one secondary interval family. Eighteen nominal-preview versus faithful-preview contrasts across three estimators and two K values form another. Both use separate two-sided Bonferroni-adjusted 95% paired-t intervals. These families are fully reported in the supplement, including unfavorable and zero-mass results; they are not collectively powered at 90%. No environmental parameter was changed to favor fusion.
+
 ## S1. All episode cells
 
 | Control | V | K | Regime | Preview | B | L | P | Y_A | Y_B | R |
@@ -202,3 +212,15 @@ python reference/reproduce.py --output reproduction
 ```
 
 [Execution addendum](../docs/PROVENANCE.md) records authorization, namespace wiring, preselected audit roots and the no-interim-look procedure. [Freeze manifest](../provenance/FREEZE.original.json) commits the unchanged preregistration, code archives, seed manifest and runtime. Hash checking is tamper-evident under trusted local storage; no external registration is asserted.
+
+## S5. Post-publication exploratory review (not original confirmation)
+
+These results reuse existing roots and were added after the initial release. Descriptive 95% t intervals in this section are not multiplicity-adjusted confirmatory claims; a zero-width descriptive interval does not prove population safety.
+
+- [Complete 56-cell K sweep](../results/review-v0.5.1/sweep.csv), [root outcomes](../results/review-v0.5.1/root-metrics.json) and [action frequencies](../results/review-v0.5.1/action-frequencies.csv).
+- [Channel-by-search differences](../results/review-v0.5.1/channel-did.csv) and [paired root differences](../results/review-v0.5.1/channel-did-roots.csv).
+- [All 480 live-state bias witnesses](../results/review-v0.5.1/live-state-witnesses.csv).
+- [All 54 fixed-policy sensitivities](../results/review-v0.5.1/fixed-policy-sensitivity.csv) and [root-level values](../results/review-v0.5.1/fixed-policy-sensitivity-roots.csv).
+- [Executable analysis](../exploratory/review.py), [post hoc protocol](../exploratory/PROTOCOL.md) and [audit](../results/review-v0.5.1/audit.json).
+
+Rerun with `python exploratory/review.py --output review-reproduction` after installing the same replay dependencies. This runner does not alter the frozen core; it takes prefixes of the original K48 order and uses a separate scalar calculation for fixed-policy horizons beyond twelve.

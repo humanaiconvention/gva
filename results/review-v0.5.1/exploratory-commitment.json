@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-25T00:07:46.595887+00:00",
+  "status": "POST_HOC_REVIEW",
+  "files": {
+    "review.py": "dc1252c45fec224b562b641562d18ab3fff373876dcb4edb7f71b75155020323",
+    "PROTOCOL.md": "58604f682c8289f4b87324484aaf5a9133cc16b4e97c4d179fa10cfc2d17c554"
+  },
+  "roots": [
+    1000001,
+    1000002,
+    1000003,
+    1000004,
+    1000005,
+    1000006,
+    1000007,
+    1000008,
+    1000009,
+    1000010,
+    1000011,
+    1000012,
+    1000013,
+    1000014,
+    1000015,
+    1000016,
+    1000017,
+    1000018,
+    1000019,
+    1000020
+  ],
+  "interpretation": "Existing outcomes already known; not prospective confirmation"
+}

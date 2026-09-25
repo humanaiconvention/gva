@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "frozen_pilot_source_unchanged": true,
+  "stateful_gate_cases": 12288,
+  "report_repair_cases": 384,
+  "preview_score_cases": 96,
+  "nominal_previews_equal_across_regimes": true,
+  "live_shift_changes_fatigue": true,
+  "scope": "Finite reachable binary q-history domain; separate scalar reporting and physics checks; no general safety proof."
+}

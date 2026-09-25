@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "episodes": 1120,
+  "overlapping_original_cells_matched": 180,
+  "live_scalar_checks": 13440,
+  "independent_candidate_audit_root": 1000001,
+  "witness_states": 480,
+  "witness_scalar_score_banks": 960,
+  "policy_queries": 1704960,
+  "audit_queries_excluded_from_policy_cost": true,
+  "enforced_violations": 0,
+  "witness_by_regime": {
+    "NOMINAL": 89,
+    "PHYSICAL_SHIFT": 84
+  }
+}
