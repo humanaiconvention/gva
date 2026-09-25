@@ -1,0 +1,28 @@
+{
+  "status": "PASSED",
+  "utc": "2026-09-25T06:17:25.482035+00:00",
+  "execution_source_unchanged": true,
+  "protocol_unchanged": true,
+  "runtime_unchanged": true,
+  "root_blocks_verified": 145,
+  "episodes_verified": 2320,
+  "live_transitions_verified": 27840,
+  "scalar_candidate_replicas": 119808,
+  "candidate_audit_roots": [
+    4000001,
+    4000020,
+    4000145
+  ],
+  "root_hash_chains_verified": 145,
+  "trace_metrics_match": true,
+  "checkpoint_prefix_complete": true,
+  "policy_queries": 5790720,
+  "zero_executed_violations": true,
+  "setup_attempts": 1,
+  "interrupted_attempts": 0,
+  "independent_external_review": false,
+  "external_review_status": "OUTSTANDING",
+  "statistical_analysis": "Frozen analyzer ran after complete collection; all eighteen bounds retained.",
+  "workflow_note": "Review package published before collection; external review was not awaited. No scientific amendment.",
+  "limitation": "Author-provided integrity checks and scalar reconstruction; not external replication."
+}
