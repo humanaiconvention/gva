@@ -27,3 +27,7 @@ After v0.5.0 was published, the maintainer supplied an AI-generated review. The 
 Files under `exploratory/` and `results/review-v0.5.1/` are later, explicitly post hoc analyses of archived roots. They do not add independent observations to the original sample or change its decision. The full rerun of 820 original cells is an author reproduction, and the 1,120-cell review sweep is an exploratory extension; neither is an external replication.
 
 The separate `gva1-preregistration/` directory records a prospective repair protocol and new sample-size/seed commitments before GVA-1 confirmation outcomes. Its forty-root development pilot is distinct from both GVA-0 samples. The statistical protocol is publicly committed under `gva1-prereg-v0.1`; the final confirmation execution implementation still requires validation and a source/runtime freeze. No GVA-1 confirmation result is claimed.
+
+## Subsequent GVA-1 execution preparation
+
+The later `gva1/` package and `tests/gva1/` fixture/suite complete execution preparation without modifying the preceding scientific commitment. The development-only preflight matched 640 pilot episodes and passed 19 tests. `gva1-execution-v0.1/` contains the prospective execution seal, readiness receipt, test log and compact development cost/collection receipts. All raw validation traces remain local and reproducible; no fresh confirmation result is included. Independent review remains outstanding. The prior paragraph records the status at v0.5.1, before this execution layer existed.
