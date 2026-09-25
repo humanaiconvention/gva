@@ -1,0 +1,18 @@
+test_archived_reference_decisions_and_endpoints (test_transfer.TransferTests.test_archived_reference_decisions_and_endpoints) ... ok
+test_branch_history_and_full_scalar_layers (test_transfer.TransferTests.test_branch_history_and_full_scalar_layers) ... ok
+test_finite_contract_all_histories (test_transfer.TransferTests.test_finite_contract_all_histories) ... ok
+test_no_execution_without_activation (test_transfer.TransferTests.test_no_execution_without_activation) ... ok
+test_noop_and_id_ties (test_transfer.TransferTests.test_noop_and_id_ties) ... ok
+test_planning_ignores_means_and_respects_floor_cap (test_transfer.TransferTests.test_planning_ignores_means_and_respects_floor_cap) ... ok
+test_preview_isolation_and_horizon (test_transfer.TransferTests.test_preview_isolation_and_horizon) ... ok
+test_report_repair_before_clipping (test_transfer.TransferTests.test_report_repair_before_clipping) ... ok
+test_seed_separation (test_transfer.TransferTests.test_seed_separation) ... ok
+test_two_step_changes_decision (test_transfer.TransferTests.test_two_step_changes_decision) ... ok
+test_vector_scalar_clipping_reporting (test_transfer.TransferTests.test_vector_scalar_clipping_reporting) ... ok
+test_whole_root_trace_reconstruction_and_corruption (test_transfer.TransferTests.test_whole_root_trace_reconstruction_and_corruption) ... ok
+test_zero_variance_does_not_support_superiority (test_transfer.TransferTests.test_zero_variance_does_not_support_superiority) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 12.448s
+
+OK
