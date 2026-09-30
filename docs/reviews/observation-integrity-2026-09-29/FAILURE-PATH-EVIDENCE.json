@@ -1,0 +1,533 @@
+{
+  "baseline": {
+    "attempts": [
+      "replay",
+      "omission",
+      "reordering",
+      "delay",
+      "misbinding",
+      "fabrication"
+    ],
+    "control_systems": {
+      "delay": "PC4-stale-carry-forward-v1",
+      "fabrication": "PC5-first-claim-without-id-registry-v1",
+      "misbinding": "PC5-first-claim-without-id-registry-v1",
+      "omission": "PC2-observed-only-accounting-v1",
+      "reordering": "PC3-arrival-position-routing-v1",
+      "replay": "PC1-insecure-accumulate-on-receipt-v1"
+    },
+    "families": {
+      "delay": "reordering_delay",
+      "fabrication": "fabrication",
+      "misbinding": "misbinding",
+      "omission": "omission",
+      "reordering": "reordering_delay",
+      "replay": "replay"
+    },
+    "file_rule": "For each attempt, create <attempt>-r1.json and <attempt>-control.json: 12 complete minimal records; no scores/outcomes/receipts.",
+    "fixture": {
+      "fixture_id": "synthetic-classification-only",
+      "parent_root_id": "synthetic-not-a-generator-seed"
+    },
+    "r1_system": "R1-fixed-slot-first-valid-unauthenticated-v1",
+    "record_template": {
+      "analysis": {
+        "attack_associated_excess": false
+      },
+      "attempt": "<attempt>",
+      "family": "<families[attempt]>",
+      "fixture_id": "<fixture.fixture_id>",
+      "parent_root_id": "<fixture.parent_root_id>",
+      "status": "complete",
+      "system": "<r1_system or control_systems[attempt]>"
+    }
+  },
+  "canonical_record_hash_rule": "SHA-256 of original full selected JSON record encoded with json.dumps(sort_keys=True,separators=(comma,colon),allow_nan=False), UTF-8; not a hash of this derived view.",
+  "cases": [
+    {
+      "changes_from_baseline": [
+        {
+          "file": "replay-r1.json",
+          "operation": "set",
+          "path": [
+            "analysis",
+            "attack_associated_excess"
+          ],
+          "value": "false"
+        }
+      ],
+      "demonstrates": "Nonempty string \"false\" is treated as truthy; it is not a valid boolean witness flag.",
+      "does_not_demonstrate": "Does not establish scored excess credit, a valid witness, or an observation-interface exploit.",
+      "id": "G-string-flag",
+      "original_assertion": {
+        "checks": [
+          "No exception",
+          "Root event, unresolved flag, known-witness flag compared by identity to expected values",
+          "Returned failure-list length equals expected count"
+        ],
+        "did_not_assert": [
+          "Full family result equality",
+          "Every returned record identity/schema",
+          "Actual receiver or scored witness validity"
+        ],
+        "harness_lines": [
+          194,
+          204
+        ],
+        "recorded_pass": true
+      },
+      "original_expected": {
+        "event": true,
+        "exception": null,
+        "failure_count": 0,
+        "has_unresolved_attempts": false,
+        "known_witness": true
+      },
+      "original_record_canonical_sha256": "8669bc9c3be322fb896f516313f3a6adac9038c2b2c265d46c00e67e783df19c",
+      "original_setup_lines": [
+        155,
+        157
+      ],
+      "recorded_result": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": true,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "replay": {
+              "attack_associated_campaign_event": true,
+              "has_unresolved_attempts": false,
+              "known_witness": true
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": true
+        }
+      },
+      "source_references": [
+        "development/observation_campaign/runner.py:104-122",
+        "development/observation_campaign/statistics.py:41-49"
+      ],
+      "worker": {
+        "exit_code": 0,
+        "status": "completed_worker"
+      }
+    },
+    {
+      "changes_from_baseline": [
+        {
+          "file": "reordering-r1.json",
+          "operation": "set",
+          "path": [
+            "analysis",
+            "attack_associated_excess"
+          ],
+          "value": true
+        },
+        {
+          "file": "delay-r1.json",
+          "operation": "delete",
+          "path": [
+            "analysis"
+          ]
+        }
+      ],
+      "demonstrates": "An earlier supplied timing witness short-circuits the missing later timing analysis in both overall and family OR evaluation.",
+      "does_not_demonstrate": "A witness may settle an OR event without making another malformed record valid; this is not a verified witness or proof of complete coverage.",
+      "id": "G-short-circuit",
+      "original_assertion": {
+        "checks": [
+          "No exception",
+          "Root event, unresolved flag, known-witness flag compared by identity to expected values",
+          "Returned failure-list length equals expected count"
+        ],
+        "did_not_assert": [
+          "Full family result equality",
+          "Every returned record identity/schema",
+          "Actual receiver or scored witness validity"
+        ],
+        "harness_lines": [
+          194,
+          204
+        ],
+        "recorded_pass": true
+      },
+      "original_expected": {
+        "event": true,
+        "exception": null,
+        "failure_count": 0,
+        "has_unresolved_attempts": false,
+        "known_witness": true
+      },
+      "original_record_canonical_sha256": "7c983b4922d5dde8bd78ffa2252cf09332f0a9eb51befcedcecb22bdac619947",
+      "original_setup_lines": [
+        158,
+        162
+      ],
+      "recorded_result": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": true,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": true,
+              "has_unresolved_attempts": false,
+              "known_witness": true
+            },
+            "replay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": true
+        }
+      },
+      "source_references": [
+        "development/observation_campaign/runner.py:104-122",
+        "development/observation_campaign/statistics.py:41-49"
+      ],
+      "worker": {
+        "exit_code": 1,
+        "failure_category": "crashes",
+        "message": "Synthetic failed-worker metadata",
+        "status": "unresolved"
+      }
+    },
+    {
+      "changes_from_baseline": [
+        {
+          "file": "replay-r1.json",
+          "operation": "set",
+          "path": [
+            "fixture_id"
+          ],
+          "value": "different-synthetic-fixture"
+        }
+      ],
+      "demonstrates": "A readable complete record with another fixture_id is classified without matching its identity to the supplied fixture/path.",
+      "does_not_demonstrate": "JSON readability does not establish artifact identity; this is not a cross-fixture observation attack or demonstrated retained-campaign corruption.",
+      "id": "I-fixture-mismatch",
+      "original_assertion": {
+        "checks": [
+          "No exception",
+          "Root event, unresolved flag, known-witness flag compared by identity to expected values",
+          "Returned failure-list length equals expected count"
+        ],
+        "did_not_assert": [
+          "Full family result equality",
+          "Every returned record identity/schema",
+          "Actual receiver or scored witness validity"
+        ],
+        "harness_lines": [
+          194,
+          204
+        ],
+        "recorded_pass": true
+      },
+      "original_expected": {
+        "event": false,
+        "exception": null,
+        "failure_count": 0,
+        "has_unresolved_attempts": false,
+        "known_witness": false
+      },
+      "original_record_canonical_sha256": "cc9ef429bdbb6abad776c3de2d0a9c53978e0db8cd622a04a21f2931ae81c997",
+      "original_setup_lines": [
+        166,
+        168
+      ],
+      "recorded_result": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": false,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "replay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": false
+        }
+      },
+      "source_references": [
+        "development/observation_campaign/runner.py:104-122",
+        "development/observation_campaign/statistics.py:41-49"
+      ],
+      "worker": {
+        "exit_code": 0,
+        "status": "completed_worker"
+      }
+    }
+  ],
+  "omissions": [
+    "Other 21 scenarios",
+    "Session timestamp and absolute test-output directory",
+    "Synthetic fixture directory paths",
+    "Repeated policy prose and description fields"
+  ],
+  "original_baseline_harness_lines": [
+    100,
+    109
+  ],
+  "original_result_sha256": "e71e26b74501effc0a2ee7717a69afa469cd08602ede3c4d825fbf354571281b",
+  "retained_without_semantic_change": [
+    "Exact baseline and all three deltas",
+    "Worker metadata",
+    "Returned case statuses, failures and full root/family objects",
+    "Historical expected values and recorded assertion outcome"
+  ],
+  "status": "Derived public view of three recorded synthetic artifact cases; not original result-file bytes"
+}
