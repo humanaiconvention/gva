@@ -1,0 +1,172 @@
+{
+  "dependencies": {
+    "constant_assignments": "ATTEMPTS/FAMILIES from attacks.py:8-9 and CONTROL_FOR from controls.py:90-92; values checked directly against archived AST assignments.",
+    "globals": {
+      "_exact_float": [
+        "stdlib decimal.Decimal/InvalidOperation; compiled, not exercised by default result-file parsing"
+      ],
+      "_object_and_constant": [
+        "Python builtins only"
+      ],
+      "collect_root": [
+        "archived read_json",
+        "archived root_campaign_status",
+        "archived ATTEMPTS/FAMILIES assignments",
+        "name-only R1Receiver stub",
+        "archived CONTROL_FOR mapping evaluated with name-only class stubs"
+      ],
+      "read_json": [
+        "pathlib.Path",
+        "archived strict_loads"
+      ],
+      "root_campaign_status": [
+        "Python builtins only; no stubs"
+      ],
+      "strict_loads": [
+        "stdlib json",
+        "archived _object/_constant/_exact_float",
+        "builtin float"
+      ]
+    },
+    "name_only_stubs": [
+      {
+        "class": "R1Receiver",
+        "line": 224,
+        "name": "R1-fixed-slot-first-valid-unauthenticated-v1",
+        "source": "development/observation_integrity/receiver.py"
+      },
+      {
+        "class": "AccumulateOnReceiptControl",
+        "line": 249,
+        "name": "PC1-insecure-accumulate-on-receipt-v1",
+        "source": "development/observation_integrity/receiver.py"
+      },
+      {
+        "class": "ObservedOnlyControl",
+        "line": 11,
+        "name": "PC2-observed-only-accounting-v1",
+        "source": "development/observation_campaign/controls.py"
+      },
+      {
+        "class": "ArrivalPositionControl",
+        "line": 24,
+        "name": "PC3-arrival-position-routing-v1",
+        "source": "development/observation_campaign/controls.py"
+      },
+      {
+        "class": "CarryForwardControl",
+        "line": 45,
+        "name": "PC4-stale-carry-forward-v1",
+        "source": "development/observation_campaign/controls.py"
+      },
+      {
+        "class": "UncheckedClaimsControl",
+        "line": 77,
+        "name": "PC5-first-claim-without-id-registry-v1",
+        "source": "development/observation_campaign/controls.py"
+      }
+    ]
+  },
+  "dependency_manifest_comparison": {
+    "active_completed_run_manifest": "failure-run-02/FUNCTION-DEPENDENCIES.json",
+    "byte_identical": true,
+    "completed_run_sha256": "784749e688e12725dec4b074e496e04b8599c39eae8873b83ab0f03f897b8ff7",
+    "explanation": "Generator runs before test scenarios and encodes the same historical functions, relative snippet paths, name-only stubs and dependency descriptions. No run ID, output directory or timestamp is encoded. Equality does not authenticate either execution.",
+    "provenance_basis": "Read both files; compare generator function bodies in initial/final scripts; inspect initial exception log and final 24-case stdout log. The top-level file is associated with the aborted invocation; the completed-run subdirectory and log identify the designated active artifact.",
+    "same_generator_bodies_verified": [
+      "load_functions",
+      "write"
+    ],
+    "top_level_sha256": "784749e688e12725dec4b074e496e04b8599c39eae8873b83ab0f03f897b8ff7"
+  },
+  "derived_harness": {
+    "changes": [
+      "Three cases only; baseline and delta specification bundled",
+      "Explicit package/output arguments; new output directory required",
+      "No repository imports or full-archive dependency",
+      "Verbatim historical function AST nodes only; no archived-module top-level execution",
+      "Fresh exclusive logs/results under output; no shell redirection needed",
+      "Deterministic output without timestamps, absolute paths, environment dumps or stack traces",
+      "Full returned results compared in addition to historical scalar assertions"
+    ],
+    "original_script": "failure_path_tests.py",
+    "original_script_sha256": "637ce08cd8776542a483c5e5b3ce3bd3881e3b1a3ebf6e8e45ad8a5b1621deec"
+  },
+  "excerpt_file": "historical_excerpts.py",
+  "excerpt_file_sha256": "839287438955ca26688f668afb17a8d2474b21fc3155134b9d80291629557d7b",
+  "historical_campaign_manifest_sha256": "b03dd856a3df0380b09adcc0533365ff348a70d9673a889439aebbec28c8e3b4",
+  "historical_functions": [
+    {
+      "archived_file": "development/observation_integrity/serialization.py",
+      "end_line": 17,
+      "file_sha256": "c32dd4cf8a69eca4f511a07bf783b1e427aafc15c6eea2864ac7eaaea232c010",
+      "function": "_object",
+      "start_line": 11,
+      "verbatim_body_sha256": "02be5f0582cef0ebc956cab1e5b643ff399cb99166140d8038ea16e2221dc04c"
+    },
+    {
+      "archived_file": "development/observation_integrity/serialization.py",
+      "end_line": 21,
+      "file_sha256": "c32dd4cf8a69eca4f511a07bf783b1e427aafc15c6eea2864ac7eaaea232c010",
+      "function": "_constant",
+      "start_line": 20,
+      "verbatim_body_sha256": "4389cb3f289ca4597561cbb57d6cb77294f0e4da0b42ba042406ce0a40bd6f3f"
+    },
+    {
+      "archived_file": "development/observation_integrity/serialization.py",
+      "end_line": 28,
+      "file_sha256": "c32dd4cf8a69eca4f511a07bf783b1e427aafc15c6eea2864ac7eaaea232c010",
+      "function": "_exact_float",
+      "start_line": 24,
+      "verbatim_body_sha256": "569e0f33bf15e973f4e752126403b6cc17322437c73b911055dafa9608c015e6"
+    },
+    {
+      "archived_file": "development/observation_integrity/serialization.py",
+      "end_line": 35,
+      "file_sha256": "c32dd4cf8a69eca4f511a07bf783b1e427aafc15c6eea2864ac7eaaea232c010",
+      "function": "strict_loads",
+      "start_line": 31,
+      "verbatim_body_sha256": "96d920b6d02c08af13a60106c548df8dd0a275ef343b6da79cd24a5ab938e0a7"
+    },
+    {
+      "archived_file": "development/observation_integrity/serialization.py",
+      "end_line": 71,
+      "file_sha256": "c32dd4cf8a69eca4f511a07bf783b1e427aafc15c6eea2864ac7eaaea232c010",
+      "function": "read_json",
+      "start_line": 70,
+      "verbatim_body_sha256": "3a6e4e1c058c16e8c0dec7782d2c48bfdac4774f6c60aa8d37a1ab0bb5635221"
+    },
+    {
+      "archived_file": "development/observation_campaign/statistics.py",
+      "end_line": 49,
+      "file_sha256": "5843d4b988b6984666fe5e6d53670169d2101b39f08ac889be88c8ff8835e489",
+      "function": "root_campaign_status",
+      "start_line": 41,
+      "verbatim_body_sha256": "04d68d33b8e6e1ff14c3054e9d63d85a70260017b51e98a1f2b4d94159c4316c"
+    },
+    {
+      "archived_file": "development/observation_campaign/runner.py",
+      "end_line": 122,
+      "file_sha256": "eab8f0c54205836c862f25e1d26f51212f26265445f10f3d9e065b724a4536e8",
+      "function": "collect_root",
+      "start_line": 104,
+      "verbatim_body_sha256": "3f33a60e610177274f3e43fd96c0244a6f6df1df1595dcb387c9aa2087b5b85b"
+    }
+  ],
+  "historical_source_set_sha256": "43511dd3daf6839a967f495fdc260890a194460df42911004ada4eab1af3756c",
+  "historical_source_zip_sha256": "ab3376261b764c4d4e38869bb1d00858cbfd6ebfc9f98a11c90b771940ee038e",
+  "license_note": "No repository LICENSE file or license declaration was found at the public base; the roadmap leaves licensing unresolved. This review adds no license or third-party code. It includes the project-supplied historical excerpts explicitly authorized for this publication.",
+  "public_base_commit": "91474fe5268b90e059a5a637b07e3092ddf69c06",
+  "public_repository": "https://github.com/humanaiconvention/gva",
+  "publication_boundary": "New author-authorized, AI-assisted review materials. No whole archive, sealed tree, environment or campaign traces are redistributed.",
+  "sealed_followup_manifest_sha256": "da1a5b3c07b7b8a2bab15c6939f830e1db066266e9b241d4160aa43d85f7432d",
+  "source_relationship": {
+    "archived_execution_source_equals_public_base": false,
+    "basis": "git cat-file path existence checks at the exact public base; functions supplied as historical excerpts, not current implementation.",
+    "required_source_paths_absent_at_public_base": [
+      "development/observation_campaign/runner.py",
+      "development/observation_campaign/statistics.py",
+      "development/observation_integrity/serialization.py"
+    ]
+  }
+}

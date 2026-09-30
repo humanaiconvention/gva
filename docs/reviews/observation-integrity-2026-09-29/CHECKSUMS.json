@@ -1,0 +1,37 @@
+{
+  "coverage": "Every public review-package file except CHECKSUMS.json itself; no sealed originals or local execution directories",
+  "files": {
+    "ERRATA.md": {
+      "bytes": 5871,
+      "sha256": "2548ec6185e527adced99ed94ee3c150c06ab4b3c776ba16020a0d0ad1d0c8ea"
+    },
+    "FAILURE-PATH-EVIDENCE.json": {
+      "bytes": 17441,
+      "sha256": "f083a65ede330b200590b702af3e989dbca5090ba682b5bdcf3a1d06c5b29ba9"
+    },
+    "README.md": {
+      "bytes": 6050,
+      "sha256": "576cb0385f38508f1cb605c0b49d48496dd05e386a21e95195e0f9ff1277c9fb"
+    },
+    "REPRODUCTION-RESULTS.json": {
+      "bytes": 10526,
+      "sha256": "532d01d5537d5d9fb6812d6209586a0544366d0dd8d996d25b2c8b8976d0a0ba"
+    },
+    "REPRODUCTION.md": {
+      "bytes": 5098,
+      "sha256": "d7fbd23dbfc46d55f4f9554212530e77d4243801c76b2d7a56fc2fc5ad08241c"
+    },
+    "SOURCE-PROVENANCE.json": {
+      "bytes": 8086,
+      "sha256": "0850c74971560d994f240091db0112969be9bc9862bb7819fe4f32e930306568"
+    },
+    "historical_excerpts.py": {
+      "bytes": 3598,
+      "sha256": "839287438955ca26688f668afb17a8d2474b21fc3155134b9d80291629557d7b"
+    },
+    "reproduce_failure_cases.py": {
+      "bytes": 8135,
+      "sha256": "30309d7bdd868e6fd65d49bbb333149ba0042d53b939e0ae2b9ac4febd715489"
+    }
+  }
+}

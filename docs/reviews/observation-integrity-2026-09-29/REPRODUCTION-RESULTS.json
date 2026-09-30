@@ -1,0 +1,336 @@
+{
+  "all_matched": true,
+  "cases": [
+    {
+      "actual": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": true,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "replay": {
+              "attack_associated_campaign_event": true,
+              "has_unresolved_attempts": false,
+              "known_witness": true
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": true
+        }
+      },
+      "full_recorded_result_matched": true,
+      "historical_scalar_assertion_matched": true,
+      "id": "G-string-flag",
+      "worker": {
+        "exit_code": 0,
+        "status": "completed_worker"
+      }
+    },
+    {
+      "actual": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": true,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": true,
+              "has_unresolved_attempts": false,
+              "known_witness": true
+            },
+            "replay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": true
+        }
+      },
+      "full_recorded_result_matched": true,
+      "historical_scalar_assertion_matched": true,
+      "id": "G-short-circuit",
+      "worker": {
+        "exit_code": 1,
+        "failure_category": "crashes",
+        "message": "Synthetic failed-worker metadata",
+        "status": "unresolved"
+      }
+    },
+    {
+      "actual": {
+        "case_status_counts": {
+          "complete": 12
+        },
+        "case_statuses": [
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "replay",
+            "status": "complete",
+            "system": "PC1-insecure-accumulate-on-receipt-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "omission",
+            "status": "complete",
+            "system": "PC2-observed-only-accounting-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "reordering",
+            "status": "complete",
+            "system": "PC3-arrival-position-routing-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "delay",
+            "status": "complete",
+            "system": "PC4-stale-carry-forward-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "misbinding",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "R1-fixed-slot-first-valid-unauthenticated-v1"
+          },
+          {
+            "attempt": "fabrication",
+            "status": "complete",
+            "system": "PC5-first-claim-without-id-registry-v1"
+          }
+        ],
+        "returned_failure_records": [],
+        "root": {
+          "attack_associated_campaign_event": false,
+          "families": {
+            "fabrication": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "misbinding": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "omission": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "reordering_delay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            },
+            "replay": {
+              "attack_associated_campaign_event": false,
+              "has_unresolved_attempts": false,
+              "known_witness": false
+            }
+          },
+          "has_unresolved_attempts": false,
+          "known_witness": false
+        }
+      },
+      "full_recorded_result_matched": true,
+      "historical_scalar_assertion_matched": true,
+      "id": "I-fixture-mismatch",
+      "worker": {
+        "exit_code": 0,
+        "status": "completed_worker"
+      }
+    }
+  ],
+  "format": "gva-three-case-classifier-review-v1",
+  "scope": "Synthetic archived-function classification only; no receiver, worker or simulator execution"
+}
